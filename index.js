@@ -23,7 +23,7 @@ app.get('/exam', (req, res) => {
 
 
 app.get('/node', (req, res) => {
-    res.send(myExam);
+    res.send(myExam.node);
 });
 
 
